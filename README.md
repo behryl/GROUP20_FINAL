@@ -39,17 +39,17 @@ This guide will walk you through the steps to host your Streamlit app on a local
 
 Before you begin, ensure that you have Streamlit installed. If not, you can install it using pip:
 
-bash
+
 pip install streamlit
 
 
-## Running Your Streamlit App
+## Running Streamlit App
 
 1. **Open Terminal or Command Prompt**: Navigate to the directory where your Streamlit app `.py` file is located.
 
-2. **Run the App**: Execute the following command to start your app:
+2. **Run the App**: Execute the following command to start the app:
 
-bash
+
 streamlit run app.py
 
 
@@ -58,8 +58,6 @@ By default, Streamlit will start a local server, and the app will be accessible 
 ## Firewall Settings
 
 Ensure that your firewall settings allow incoming connections on the port you're using for your Streamlit app.
-
----
 
 For more detailed instructions and advanced configurations, refer to the [Streamlit documentation](https://docs.streamlit.io).
 
