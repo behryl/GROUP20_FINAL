@@ -62,7 +62,6 @@ Ensure that your firewall settings allow incoming connections on the port you're
 ---
 
 For more detailed instructions and advanced configurations, refer to the [Streamlit documentation](https://docs.streamlit.io).
-Certainly! Below is a formatted README with instructions on how to host the Recipe Suggestions Chatbot application using Gradio:
 
 ---
 
