@@ -42,6 +42,7 @@ Before you begin, ensure that you have Streamlit installed. If not, you can inst
 
 pip install streamlit
 
+Ensure you also download the 'app.py' file provided in the repository along with the imported joblib files and jpegs.
 
 ## Running Streamlit App
 
