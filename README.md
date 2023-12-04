@@ -1,28 +1,98 @@
-# AI-powered Recipe Recommendation System for Sustainable Meal Planning Readme
-This document outlines the functionalities, objectives, and technical specifications of the AI-powered Recipe Recommendation System for Sustainable Meal Planning. This system aims to combat food waste by offering personalized meal suggestions based on readily available ingredients.
+# Culinary Connoisseur: A Dual-Project Exploration
 
-Functionalities:
-Ingredient Recognition: Users can input their available ingredients through text or voice commands. The system utilizes NLP libraries to accurately identify and categorize each ingredient.
-Recipe Recommendation: Based on the recognized ingredients, the system recommends recipes through a trained machine learning model. The recommendations consider:
-User Preferences: Dietary restrictions, taste preferences, and desired meal type (breakfast, lunch, dinner,etc.) can be specified.
-Nutritional Value: Recipes are balanced and adhere to established nutritional guidelines.
-Interactive Interface: A user-friendly interface allows for easy ingredient input and exploration of recipe suggestions.
+## Overview
 
-Objectives:
-Reduce Food Waste: By encouraging users to utilize existing ingredients, the system aims to significantly reduce food waste in individual households.
-Promote Sustainable Practices: Users are empowered to make informed culinary choices that align with environmental consciousness.
-Personalize Meal Planning: Personalized recommendations cater to individual preferences and dietary needs,fostering a more enjoyable cooking experience.
+Our project's narrative is a tale of adaptation and skillful application of knowledge, both from academic settings and self-initiated learning. We embarked on two separate projects within the culinary realm to demonstrate our comprehensive understanding and ability to pivot when necessary.
 
-Technical Specifications:
-NLP Libraries: NLTK, spaCy (ingredient understanding and categorization)
-Machine Learning Platform: Google Colab (model training and refinement)
-UI Development Tools: HTML, CSS, JavaScript (intuitive interface design)
-Model Deployment and API Integration: Streamlit (real-time recipe suggestions)
-Dataset: Food.com Recipes dataset from Kaggle (model training and validation)
+### Why Two Projects?
 
-Timeline:
-The system is currently under development and is expected to be launched within the next few weeks. User feedback will be incorporated to continuously improve the accuracy and effectiveness of recommendations.
+We chose to develop two projects to showcase our expertise gained in the classroom and through independent exploration. Initially, our objective was to create a Recipe Suggestions Chatbot using deep learning techniques. However, we encountered challenges that led us to reconsider our approach. To stay true to our original vision while adapting to these challenges, we decided to split our efforts into two applications:
 
-Impact:
-This project has the potential to revolutionize meal planning by promoting sustainability, reducing food waste, and offering personalized culinary experiences. It stands as a practical solution to a global challenge, contributing to a more environmentally conscious and food-secure future.
-We invite you to explore this innovative system and embark on a journey of sustainable and delicious meal creation!
+1. *Recipe Suggestions Chatbot using API*: This chatbot generates recipe suggestions based on user-input ingredients, showcasing our proficiency in API integration and chatbot development.
+2. *Cuisine Predictor*: A deep learning-based application that predicts cuisines from ingredients, illustrating our problem-solving skills and ability to apply complex concepts.
+
+## Applications
+
+- *Recipe Suggestions Chatbot using API*: Engage with a chatbot that provides recipe suggestions, emphasizing practical API integration and user interaction.
+- *Cuisine Predictor*: Employs a deep learning model to identify the cuisine of a dish from its ingredients, showcasing advanced machine learning techniques.
+
+## Learning Outcomes
+
+- Mastery of API usage for dynamic data retrieval and chatbot communication.
+- Deployment of deep learning models for insightful data analysis and accurate predictions.
+- Flexibility in project development and dedication to the initial project proposal.
+
+## Technologies Used
+
+- API Communication
+- Chatbot Development
+- Deep Learning (Neural Networks)
+- Python Programming
+
+## Getting Started for the Cuisine Predictor
+
+# Hosting a Streamlit App Locally
+
+This guide will walk you through the steps to host your Streamlit app on a local server.
+
+## Prerequisites
+
+Before you begin, ensure that you have Streamlit installed. If not, you can install it using pip:
+
+bash
+pip install streamlit
+
+
+## Running Your Streamlit App
+
+1. **Open Terminal or Command Prompt**: Navigate to the directory where your Streamlit app `.py` file is located.
+
+2. **Run the App**: Execute the following command to start your app:
+
+bash
+streamlit run app.py
+
+
+By default, Streamlit will start a local server, and the app will be accessible at `http://localhost:8501`
+
+## Firewall Settings
+
+Ensure that your firewall settings allow incoming connections on the port you're using for your Streamlit app.
+
+---
+
+For more detailed instructions and advanced configurations, refer to the [Streamlit documentation](https://docs.streamlit.io).
+Certainly! Below is a formatted README with instructions on how to host the Recipe Suggestions Chatbot application using Gradio:
+
+---
+
+# Getting Started For Recipe Suggestions Chatbot
+
+## Overview
+
+This chatbot utilizes the Edamam.com API to provide recipe suggestions based on user-input ingredients. The chatbot is built using Gradio, a Python library for creating user interfaces for machine learning models.
+
+## Requirements
+
+Ensure you have the following packages installed:
+
+```bash
+pip install requests
+pip install gradio
+pip install openai
+```
+
+## API Credentials
+
+To run the application, you'll need API credentials from Edamam.com. Obtain your API key and app ID, and replace the placeholders in the `get_recipes_from_edamam` function.
+
+```python
+api_key = 'YOUR_EDAMAM_API_KEY'
+app_id = 'YOUR_EDAMAM_APP_ID'
+```
+
+Run the code and open the link provided. The Recipe Suggestions Chatbot interface should be accessible.
+
+Enter ingredients in the provided textbox and click the "Submit" button to get recipe suggestions.
+
+
